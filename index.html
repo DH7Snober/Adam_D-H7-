@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="ht">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TF-Chat</title>
+  <style>
+    body {font-family: Arial, sans-serif; background-color: #f2f2f2; margin: 0; padding: 0;}
+    header {background-color: #ffffff; padding: 15px; text-align: center; font-size: 24px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: relative;}
+    .menu-btn {position: absolute; left: 15px; top: 15px; font-size: 24px; cursor: pointer;}
+    .chat-box {display: flex; flex-direction: column; padding: 20px; max-height: 80vh; overflow-y: auto; margin-bottom: 60px;}
+    .user-msg, .bot-msg {margin: 10px 0; padding: 10px 15px; border-radius: 20px; max-width: 70%;}
+    .user-msg {background-color: #d0ecff; align-self: flex-end;}
+    .bot-msg {background-color: #ffffff; border: 1px solid #ddd; align-self: flex-start;}
+    form {display: flex; padding: 15px; background-color: #fff; border-top: 1px solid #ccc; position: fixed; bottom: 0; width: 100%;}
+    form input {flex: 1; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 20px; outline: none;}
+    form button {background-color: #007bff; color: white; border: none; padding: 10px 20px; margin-left: 10px; border-radius: 20px; font-size: 16px; cursor: pointer;}
+    /* Sidebar */
+    .sidebar {position: fixed; top: 0; left: -100%; width: 80%; height: 100%; background: #fff; z-index: 100; box-shadow: 2px 0 10px rgba(0,0,0,0.2); transition: left 0.3s ease; padding: 20px; display: flex; flex-direction: column;}
+    .sidebar.active {left: 0;}
+    .sidebar-header {display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;}
+    .sidebar-header h3 {margin: 0; font-size: 18px;}
+    .search-bar {padding: 8px; border: 1px solid #ccc; border-radius: 10px; margin-bottom: 10px;}
+    .chat-list {list-style: none; padding: 0; margin: 0; flex: 1; overflow-y: auto;}
+    .chat-list li {padding: 10px 8px; border-radius: 10px; cursor: pointer; transition: background 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+    .chat-list li:hover {background: #f0f0f0;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="menu-btn" onclick="toggleSidebar()">☰</div>
+    TF-Chat
+  </header>  <div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h3>Chats</h3>
+      <button onclick="newChat()">🆕</button>
+    </div>
+    <input type="text" id="search" class="search-bar" placeholder="Recherche..." oninput="filterChats()" />
+    <ul class="chat-list" id="chatList"></ul>
+  </div>  <div class="chat-box" id="chatBox"></div>  <form id="chatForm">
+    <input type="text" id="userInput" placeholder="Send a message..." autocomplete="off" />
+    <button type="submit">➤</button>
+  </form>  <script>
+    let qaList = [];
+    const STORAGE = 'tf_chat_sessions';
+    let sessions = JSON.parse(localStorage.getItem(STORAGE) || '[]');
+    let currentSession = null;
+
+    // load QA
+    fetch('repons.json').then(r=>r.json()).then(d=>qaList=d.reponses);
+
+    function normalize(t){return t.toLowerCase().replace(/[?.!,]/g,'').trim();}
+    function getResponseFor(t){
+      const words=normalize(t).split(/\s+/);
+      const m=qaList.filter(e=>e.questions.some(q=>normalize(q).split(/\s+/).every(w=>words.includes(w))));
+      if(m.length){const ent=m[Math.floor(Math.random()*m.length)]; return ent.reponses[Math.floor(Math.random()*ent.reponses.length)];}
+      return 'M pa konprann sa. Eseye ankò.';
+    }
+
+    function save(){localStorage.setItem(STORAGE,JSON.stringify(sessions));}
+
+    function renderList(){
+      const filter=document.getElementById('search').value.toLowerCase();
+      const list=document.getElementById('chatList'); list.innerHTML='';
+      sessions.forEach((s,i)=>{
+        if(!s.title.toLowerCase().includes(filter))return;
+        const li=document.createElement('li'); li.textContent=s.title;
+        li.onclick=()=>{select(i);toggleSidebar();}; list.append(li);
+      });
+    }
+
+    function filterChats(){renderList();}
+
+    function newChat(){
+      sessions.unshift({title:'Nouveau Chat',messages:[]}); currentSession=0; save(); renderList(); renderChat();
+    }
+
+    function select(i){
+      currentSession=i;
+      const s=sessions[i];
+      if(s.messages.length>=2 && s.title.startsWith('Nouveau')){
+        s.title=s.messages[0].text+' | '+s.messages[1].text; save();
+      }
+      renderList(); renderChat();
+    }
+
+    function renderChat(){
+      const box=document.getElementById('chatBox'); box.innerHTML='';
+      if(currentSession===null)return;
+      sessions[currentSession].messages.forEach(m=>{
+        const d=document.createElement('div'); d.className=m.sender+'-msg'; d.textContent=m.text; box.append(d);
+      }); box.scrollTop=box.scrollHeight;
+    }
+
+    document.getElementById('chatForm').addEventListener('submit',e=>{
+      e.preventDefault(); const inp=document.getElementById('userInput'); const t=inp.value.trim(); if(!t)return;
+      if(currentSession===null)newChat();
+      const s=sessions[currentSession];
+      s.messages.push({sender:'user',text:t});
+      const r=getResponseFor(t); s.messages.push({sender:'bot',text:r});
+      if(s.messages.length===2) s.title='Nouveau Chat';
+      if(s.messages.length===4) s.title=s.messages[0].text+' | '+s.messages[1].text;
+      save(); renderList(); renderChat(); inp.value='';
+    });
+
+    function toggleSidebar(){document.getElementById('sidebar').classList.toggle('active');}
+
+    window.onload=()=>{ if(sessions.length>0) currentSession=0; else newChat(); renderList(); renderChat(); };
+  </script></body>
+</html>

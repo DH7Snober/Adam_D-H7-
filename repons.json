@@ -1,0 +1,365 @@
+{
+  "reponses": [
+    {
+      "questions": ["yow", "gee", "frèm", "bro", "man", "fr"],
+      "reponses": ["Sak jere man?", "Sak pase fr?", "Sak regle? Ou anfòm?"]
+    },
+    {
+      "questions": ["kijan ou rele", "ki non ou", "name ou", "kijanw rele"],
+      "reponses": ["Mwen se TF-Chat!", "Yo rele mwen TF-Chat!", "Non mwen TF-Chat."]
+    },
+    {
+      "questions": ["kisa ou kapab fè", "kisa ou ka fè", "ki sa ou fè"],
+      "reponses": ["Mwen ka reponn kesyon, ede w, fè blag, epi plis ankò."]
+    },
+    {
+      "questions": ["kijan ou ye", "eskew anfòm", "sak jere", "sak regle"],
+      "reponses": ["Anfòm frè 😎", "Poze man!", "Poze ou konn sa!"]
+    },
+    {
+      "questions": ["anfòm eu", "poze eu"],
+      "reponses": ["Anfòm fr", "Poze fr"]
+    },
+    {
+      "questions": ["nou la nap gade", "nou la nap suiv", "nap gade", "n ap gade"],
+      "reponses": ["Esa wi frè!"]
+    },
+    {
+      "questions": ["esa wi fr", "an ok", "ok", "ye"],
+      "reponses": ["Nan kisam ka ede w fr", "Sa w vle m ede w fè la fr", "Bon bagay!"]
+    },
+    {
+      "questions": ["kijan pou m aprann angle", "kijan pou aprann angle vit"],
+      "reponses": ["Pratike chak jou, tande mizik, gade fim, pale ak moun natif natal."]
+    },
+    {
+      "questions": ["ki jan solèy la fòme", "ki sa solèy la ye"],
+      "reponses": ["Solèy la se yon gwo etwal ki fòme nan yon nebula kote gaz ak pousyè konprese."]
+    },
+    {
+      "questions": ["kisa ki blockchain", "ki sa blockchain ye"],
+      "reponses": ["Blockchain se yon baz done distribye ki anrejistre tranzaksyon san otorite santral."]
+    },
+    {
+      "questions": ["ki peyi ki gen plis moun", "ki peyi ki gen plis popilasyon"],
+      "reponses": ["Lachin gen plis moun nan mond lan."]
+    },
+    {
+      "questions": ["kijan pou pwoteje kont imel", "kijan pou evite piratage imel"],
+      "reponses": ["Itilize modpas fò, aktive otantifikasyon de-faktè, epi evite lyen sispèk."]
+    },
+    {
+      "questions": ["ki diferans ant viris ak bakteri", "viris vs bakteri"],
+      "reponses": ["Viris bezwen yon selil pou viv; bakteri se mikwòb vivan ki repwodui endepandaman."]
+    },
+    {
+      "questions": ["kijan pou mwen jere tan mwen", "kijan pou fè bon jere tan"],
+      "reponses": ["Fè lis priyorite, itilize teknik Pomodoro, evite distraksyon."]
+    },
+    {
+      "questions": ["ki sa ki AI", "ki sa entèlijans atifisyèl ye"],
+      "reponses": ["AI se teknoloji ki pèmèt òdinatè fè travay entèlijan tankou aprann ak rezoud pwoblèm."]
+    },
+    {
+      "questions": ["ki pi gwo oseyan nan mond lan", "ki oseyan pi gwo"],
+      "reponses": ["Oseyan Pasifik la se pi gwo oseyan nan mond lan."]
+    },
+    {
+      "questions": ["poukisa dlo ble", "poukisa lanmè gen koulè ble"],
+      "reponses": ["Dlo absòbe koulè wouj epi reflechi koulè ble nan limyè solèy la."]
+    },
+    {
+      "questions": ["ki lang ki pi pale nan mond lan", "ki lang ki gen plis moun ki pale li"],
+      "reponses": ["Mandaren Chinwa se lang ki gen plis moun ki pale li natif natal."]
+    },
+    {
+      "questions": ["ki benefis fè egzèsis", "poukisa fè spò"],
+      "reponses": ["Egzèsis amelyore sante kè, ogmante enèji, diminye estrès, epi anpeche maladi."]
+    },
+    {
+      "questions": ["ki sa NFT ye", "kisa yon NFT ye"],
+      "reponses": ["NFT se yon jeton dijital inik ki egziste sou blockchain."]
+    },
+    {
+      "questions": ["ki diferans ant AC ak DC", "kisa kouran AC ak DC"],
+      "reponses": ["AC chanje direksyon regilyèman, DC toujou nan menm direksyon."]
+    },
+    {
+      "questions": ["ki pi bon fason pou aprann yon lang nouvo", "kijan aprann yon nouvo lang rapid"],
+      "reponses": ["Pratike chak jou ak immersion, pale ak moun ki pale lang lan natif natal."]
+    },
+    {
+      "questions": ["ki sa ki chanjman klimatik", "poukisa klima ap chanje"],
+      "reponses": ["Chanjman klimatik se rezilta aktivite imen tankou boule fosil ak deforestasyon."]
+    },
+    {
+      "questions": ["ki peyi ki pi devlope", "ki peyi ki gen plis devlopman"],
+      "reponses": ["Etazini, Almay, Japon, ak peyi Ewòp yo konsidere kòm peyi devlope."]
+    },
+    {
+      "questions": ["ki sa ki yon motè rechèch", "kijan motè rechèch fonksyone"],
+      "reponses": ["Motè rechèch itilize algorithm pou jwenn enfòmasyon sou entènèt selon demann itilizatè."]
+    },
+    {
+      "questions": ["ki jan entènèt fonksyone", "kijan entènèt mache"],
+      "reponses": ["Entènèt konekte anpil òdinatè atravè yon rezo mondyal pou pataje enfòmasyon."]
+    },
+    {
+      "questions": ["ki sa ki yon API", "kijan API mache"],
+      "reponses": ["API se yon entèfas ki pèmèt diferan aplikasyon kominike ant yo."]
+    },
+    {
+      "questions": ["ki sa ki done pèsonèl", "kisa done pèsonèl ye"],
+      "reponses": ["Done pèsonèl se enfòmasyon ki idantifye yon moun tankou non, adrès, oswa nimewo telefòn."]
+    },
+    {
+      "questions": ["kijan pou fè yon aplikasyon mobil", "kijan pou devlope yon app"],
+      "reponses": ["Ou ka itilize zouti tankou React Native, Flutter oswa Swift pou kreye aplikasyon mobil."]
+    },
+    {
+      "questions": ["ki sa ki Cloud Computing", "kijan Cloud mache"],
+      "reponses": ["Cloud Computing se sèvis depo ak pwosesis done sou entènèt, pa sou òdinatè w dirèkteman."]
+    },
+    {
+      "questions": ["ki sa ki kriptografi", "poukisa kriptografi enpòtan"],
+      "reponses": ["Kriptografi se atizay kache done pou sekirize kominikasyon ak enfòmasyon."]
+    },
+    {
+      "questions": ["kijan pou kreye yon sit entènèt", "kijan fè yon website"],
+      "reponses": ["Ou ka itilize HTML, CSS, ak JavaScript oswa zouti tankou WordPress pou kreye yon sit."]
+    },
+    {
+      "questions": ["ki sa ki rezo sosyal", "poukisa moun itilize rezo sosyal"],
+      "reponses": ["Rezo sosyal se platfòm ki pèmèt moun pataje enfòmasyon ak kominike fasilman."]
+    },
+    {
+      "questions": ["kijan pou anpeche viris informatique", "kijan pou pwoteje òdinatè kont viris"],
+      "reponses": ["Enstale anti-viris, mete sistèm ajou, epi evite telechaje dosye sispèk."]
+    },
+    {
+      "questions": ["ki sa ki entèlijans imen", "ki jan entèlijans fonksyone"],
+      "reponses": ["Entèlijans imen se kapasite aprann, rezoud pwoblèm, ak adapte ak anviwònman."]
+    },
+    {
+      "questions": ["kijan solèy la bay limyè", "ki jan solèy eklere latè"],
+      "reponses": ["Reyaksyon nikleyè nan sant solèy la pwodui limyè ak chalè ki rive sou latè."]
+    },
+    {
+      "questions": ["ki jan fè yon bon prezantasyon", "kijan pou prezante byen"],
+      "reponses": ["Prepare byen, pratike, itilize vizyèl ki klè, epi kenbe kontak ak odyans lan."]
+    },
+    {
+      "questions": ["ki sa ki gravite", "kijan gravite mache"],
+      "reponses": ["Gravite se fòs ki atire objè youn sou lòt selon mas yo ak distans yo."]
+    },
+    {
+      "questions": ["ki jan fè yon CV efikas", "kijan pou ekri yon bon rezime"],
+      "reponses": ["Fè li klè, kout, mete eksperyans enpòtan, epi adapte l ak pozisyon an."]
+    },
+    {
+      "questions": ["ki sa ki enèji renouvlab", "kijan itilize enèji solè"],
+      "reponses": ["Enèji renouvlab soti nan sous ki pa fini tankou solèy, van, ak dlo."]
+    },
+    {
+      "questions": ["ki jan pou prepare pou yon entèvyou", "kijan pou reyisi nan entèvyou"],
+      "reponses": ["Pratike kesyon komen, prepare repons, epi abiye pwofesyonèl."]
+    },
+    {
+      "questions": ["kijan teknoloji chanje lavi", "ki enpak teknoloji sou sosyete"],
+      "reponses": ["Li fasilite kominikasyon, travay, ak aksè a enfòmasyon men pote tou defi sekirite."]
+    },
+    {
+      "questions": ["ki sa ki yon algoritm", "kijan algoritm fonksyone"],
+      "reponses": ["Algoritm se yon seri enstriksyon ki rezoud yon pwoblèm oswa fè yon travay espesifik."]
+    },
+    {
+      "questions": ["ki jan pou devlope konfyans nan tèt mwen", "kijan pou amelyore estime de tèt"],
+      "reponses": ["Travay sou fòs ou, fikse objektif reyalizab, epi fè aktivite ki fè ou santi w byen."]
+    },
+    {
+      "questions": ["ki sa ki entènèt bagay (IoT)", "kijan IoT mache"],
+      "reponses": ["IoT se rezo aparèy konekte ki kapab kominike ak kontwole atravè entènèt la."]
+    },
+    {
+      "questions": ["kijan pou amelyore konsantrasyon", "kijan rete konsantre"],
+      "reponses": ["Fè repo regilye, elimine distraksyon, epi itilize teknik tankou Pomodoro."]
+    },
+    {
+      "questions": ["ki jan fè yon bon planifikasyon", "kijan planifye pwojè"],
+      "reponses": ["Defini objektif klè, etabli etap, fikse delè, epi suiv pwogrè."]
+    },
+    {
+      "questions": ["ki sa ki entèlijans emosyonèl", "kijan konprann emosyon"],
+      "reponses": ["Se kapasite pou rekonèt, konprann, ak jere pwòp emosyon ak emosyon lòt moun."]
+    },
+    {
+      "questions": ["kijan pou aprann kòd", "kijan kòmanse pwogramasyon"],
+      "reponses": ["Chwazi yon lang fasil, fè ti pwojè, epi pratike regilyèman."] 
+     },
+    {
+      "questions": ["ki sa ki yon sistèm operasyon", "kijan sistèm operasyon travay"],
+      "reponses": ["Li jere resous òdinatè epi pèmèt aplikasyon fonksyone."]
+    },
+    {
+      "questions": ["ki jan pou fè ekonomi", "kijan pou jere lajan mwen"],
+      "reponses": ["Fè yon bidjè, limite depans initil, epi mete kòb sou kote regilyèman."]
+    },
+    {
+      "questions": ["ki sa ki devlopman dirab", "poukisa devlopman dirab enpòtan"],
+      "reponses": ["Se devlopman ki satisfè bezwen jodi a san li pa konpwomèt jenerasyon kap vini yo."]
+    },
+    {
+      "questions": ["kijan mache ekonomi mondyal la", "ki sa ki ekonomi mondyal"],
+      "reponses": ["Li se sistèm ki konekte aktivite ekonomik nan tout peyi atravè komès ak finans."]
+    },
+    {
+      "questions": ["ki jan pou aprann mizik", "kijan pou m vin yon bon mizisyen"],
+      "reponses": ["Pratike enstriman regilyèman, etidye teyori mizik, epi koute anpil mizik."]
+    },
+    {
+      "questions": ["ki sa ki yon dyabèt", "ki sentòm dyabèt"],
+      "reponses": ["Dyabèt se yon maladi kote nivo sik nan san twò wo, ki ka lakòz fatig ak swaf anpil."]
+    },
+    {
+      "questions": ["kijan pou mwen pran swen po mwen", "ki jan pou gen yon po an sante"],
+      "reponses": ["Netwaye po regilyèman, idrate li, epi pwoteje kont solèy."]
+    },
+    {
+      "questions": ["ki jan pou fè yon biznis mache", "kijan pou m reyisi nan biznis"],
+      "reponses": ["Fè bon planifikasyon, konnen mache ou, epi bay kliyan sèvis kalite."]
+    },
+    {
+      "questions": ["kijan pou mwen sove anviwònman an", "kijan pou pwoteje lanati"],
+      "reponses": ["Resikle, diminye itilizasyon plastik, epi plante pye bwa."]
+    },
+    {
+      "questions": ["ki sa ki yon viris informatique", "kijan viris enfekte òdinatè"],
+      "reponses": ["Se yon pwogram ki ka domaje sistèm ou lè ou telechaje dosye sispèk."]
+    },
+    {
+      "questions": ["ki jan pou aprann yon nouvo metye", "kijan pou mwen devlope kapasite pwofesyonèl"],
+      "reponses": ["Swiv fòmasyon, fè pratik, epi aprann nan men moun ki gen eksperyans."]
+    },
+    {
+      "questions": ["kisa ki enpòtans edikasyon", "poukisa edikasyon enpòtan"],
+      "reponses": ["Edikasyon bay konesans, ogmante opòtinite, epi bati yon pi bon avni."]
+    },
+    {
+      "questions": ["ki sa ki enèji solè", "kijan enèji solè fonksyone"],
+      "reponses": ["Enèji solè se enèji ki soti nan limyè solèy la ke nou ka konvèti an elektrisite."]
+    },
+    {
+      "questions": ["kijan pou mwen evite estrès", "ki jan pou jere estrès"],
+      "reponses": ["Pran repo, pratike meditasyon, epi fè aktivite fizik regilyèman."]
+    },
+    {
+      "questions": ["ki sa ki yon rezo neural", "kijan rezo neural fonksyone"],
+      "reponses": ["Se yon modèl entèlijans atifisyèl ki imite fason sèvo imen travay."]
+    },
+    {
+      "questions": ["kijan pou fè yon bon rezime", "kijan pou ekri CV"],
+      "reponses": ["Mete eksperyans kle, fòmasyon, ak konpetans ki adapte ak travay ou vle."]
+    },
+    {
+      "questions": ["kijan pou aprann kòd nan Python", "kijan pou kòmanse aprann Python"],
+      "reponses": ["Kòmanse ak baz yo, pratike sou ti pwojè, epi itilize resous gratis sou entènèt."]
+    },
+    {
+      "questions": ["ki sa ki cryptocurrency", "kijan cryptocurrency mache"],
+      "reponses": ["Li se lajan dijital ki itilize blockchain pou sekirite ak transparans."]
+    },
+    {
+      "questions": ["ki jan pou itilize medya sosyal pou biznis", "kijan pou fè maketing sou rezo sosyal"],
+      "reponses": ["Kreye kontni atiran, angaje kliyan, epi itilize piblisite vize."]
+    },
+    {
+      "questions": ["ki sa ki yon sistèm solè", "ki planèt ki nan sistèm solè nou"],
+      "reponses": ["Sistèm solè gen solèy la ak planèt ki vire otou li tankou Latè, Mas, Jipitè, elatriye."]
+    },
+    {
+      "questions": ["kijan pou mwen jere yon ekip", "kijan pou fè bon jesyon ekip"],
+      "reponses": ["Kominike klè, bay responsablite, epi ankouraje kolaborasyon."]
+    },
+    {
+      "questions": ["ki jan pou mwen fè yon prezantasyon efikas", "kijan pou m pale an piblik"],
+      "reponses": ["Prepare kontni, pratike, epi kenbe kontak vizyèl ak odyans lan."]
+    },
+    {
+      "questions": ["ki sa ki yon kont labank", "kijan pou ouvri yon kont labank"],
+      "reponses": ["Se yon kont pou jere lajan; ou bezwen dokiman idantite ak prèv adrès pou louvri li."]
+    },
+    {
+      "questions": ["ki jan pou aprann matematik pi byen", "kijan pou amelyore nan matematik"],
+      "reponses": ["Pratike chak jou, konprann baz yo, epi poze kesyon lè ou pa konprann."]
+    },
+    {
+      "questions": ["ki sa ki yon done ki an sekirite", "kijan pou pwoteje done pèsonèl"],
+      "reponses": ["Lè done yo ankripte epi limite aksè sèlman a moun otorize."]
+    },
+    {
+      "questions": ["kijan pou mwen jwenn yon travay", "ki jan pou chèche travay"],
+      "reponses": ["Kreye bon CV, aplike sou sit travay, epi prepare pou entèvyou."]
+    },
+    {
+      "questions": ["ki sa ki enpòtans sante mantal", "poukisa sante mantal enpòtan"],
+      "reponses": ["Li ede w jere estrès, amelyore kalite lavi, epi kenbe bon relasyon ak lòt moun."]
+    },
+    {
+      "questions": ["kijan pou mwen aprann yon nouvo lang fasil", "kijan pou aprann lang rapid"],
+      "reponses": ["Pratike chak jou, itilize aplikasyon, epi pale ak moun ki pale lang lan."]
+    },
+    {
+      "questions": ["ki jan pou mwen prepare manje ki bon pou sante", "kijan pou manje byen"],
+      "reponses": ["Chwazi manje natirèl, evite twòp sik ak grès, epi manje fwi ak legim chak jou."]
+    },
+    {
+      "questions": ["kisa ki enpòtans dlo nan kò", "poukisa nou dwe bwè dlo"],
+      "reponses": ["Dlo ede nan dijesyon, regle tanperati kò, epi elimine toksin."]
+    },
+    {
+      "questions": ["ki jan pou mwen fè yon sit entènèt sekirize", "kijan pou pwoteje sit entènèt"],
+      "reponses": ["Mete SSL, itilize modpas fò, epi mete ajou lojisyèl regilyèman."]
+    },
+    {
+      "questions": ["ki sa ki yon sistèm ekleraj", "kijan ekleraj fonksyone"],
+      "reponses": ["Li itilize limyè atifisyèl pou eklere yon espas oswa yon zòn."]
+    },
+    {
+      "questions": ["ki jan pou mwen amelyore memwa mwen", "kijan pou sonje bagay pi byen"],
+      "reponses": ["Pratike repete, itilize teknik asosyasyon, epi dòmi ase."]
+    },
+    {
+      "questions": ["ki sa ki yon aplikasyon mobil", "kijan aplikasyon mobil fonksyone"],
+      "reponses": ["Se yon pwogram ki fèt pou itilize sou telefòn entelijan oswa tablèt."]
+    },
+    {
+      "questions": ["kijan pou mwen kreye yon logo", "kijan pou fè yon bon logo"],
+      "reponses": ["Fè li senp, fasil pou rekonèt, epi ki reprezante mak ou."]
+    },
+    {
+      "questions": ["ki jan pou mwen aprann desen", "kijan pou m devlope talan desen"],
+      "reponses": ["Pratike regilyèman, obsève anviwònman, epi pran leson si posib."]
+    },
+    {
+      "questions": ["kijan pou m konbat fatra plastik", "ki jan pou diminye itilizasyon plastik"],
+      "reponses": ["Itilize sak reitilizab, evite pwodwi ak anpil anbalaj, epi resikle."]
+    },
+    {
+      "questions": ["ki sa ki yon sistèm vòt elektwonik", "kijan vòt elektwonik mache"],
+      "reponses": ["Li pèmèt elektè vote atravè yon sistèm dijital olye de papye."]
+    },
+    {
+      "questions": ["ki jan pou mwen aprann filozofi", "kijan pou konprann filozofi"],
+      "reponses": ["Li liv filozofi, poze kesyon, epi diskite ak lòt moun."]
+    },
+    {
+      "questions": ["ki sa ki devlopman pèsonèl", "kijan pou mwen devlope tèt mwen"],
+      "reponses": ["Travay sou konpetans, atitid, ak konesans pou amelyore lavi ou."]
+    },
+    {
+      "questions": ["code"],
+      "reponses": ["npm install"]
+    }
+  ]
+}
+
